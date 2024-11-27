@@ -1,0 +1,172 @@
+<app-header></app-header>
+<main class="space-y-16 px-4 py-8">
+  <!-- SECTION 1-->
+  <section class="flex flex-col items-center space-y-8 px-4 py-8">
+    <article class="text-center">
+      <h1 class="text-4xl font-bold text-gray-800 mb-4">
+        Configuração da Taxa de Entrega
+      </h1>
+      <p class="text-lg text-gray-700">
+        Na seção de Configuração das Taxas de Entrega, você pode ajustar suas
+        taxas de forma prática e personalizada. Escolha entre isentar a
+        cobrança, definir valores fixos ou cobrar com base na distância
+        (quilômetros). Além disso, é possível criar faixas de KM, oferecendo
+        todas essas opções para atender às necessidades do seu negócio!
+      </p>
+    </article>
+
+    <figure class="w-full max-w-7xl">
+      <img
+        src="configtaxa-img1.png"
+        alt="Print configtaxa-img1"
+        class="w-full h-auto rounded-lg shadow-lg"
+      />
+    </figure>
+  </section>
+
+  <!-- SECTION 2-->
+  <section class="flex flex-col items-center space-y-8 px-4 py-8">
+    <article class="text-center">
+      <h1 class="text-4xl font-bold text-gray-800 mb-4">
+        1- Isentar taxa de entrega até o KM (Opcional)
+      </h1>
+      <p class="text-lg text-gray-700">
+        Caso opte por preencher este campo, a taxa de entrega será grátis para
+        clientes que estiverem dentro da distância máxima definida em
+        quilômetros do seu negócio (exemplo: 5 km). Ou seja, clientes
+        localizados até 5 km do seu negócio terão a taxa de entrega grátis.
+      </p>
+    </article>
+
+    <figure class="w-full max-w-7xl">
+      <img
+        src="configtaxa-img2.png"
+        alt="Print configtaxa-img2"
+        class="w-full h-auto rounded-lg shadow-lg"
+      />
+    </figure>
+  </section>
+
+  <!-- SECTION 3-->
+  <section class="flex flex-col items-center space-y-8 px-4 py-8">
+    <article class="text-center">
+      <h1 class="text-4xl font-bold text-gray-800 mb-4">
+        2- Para localização fora da faixa ou caso não tenha faixa configurada
+      </h1>
+      <p class="text-lg text-gray-700">
+        Este campo permite configurar a taxa de entrega a ser cobrada caso a
+        localização de um cliente esteja fora da faixa de quilômetros definida
+        ou caso não haja uma faixa configurada.
+      </p>
+    </article>
+
+    <figure class="w-full max-w-7xl">
+      <img
+        src="configtaxa-img3.png"
+        alt="Print configtaxa-img3"
+        class="w-full h-auto rounded-lg shadow-lg"
+      />
+    </figure>
+  </section>
+
+  <!-- SECTION 4-->
+  <section class="flex flex-col items-center space-y-8 px-4 py-8">
+    <article class="text-center">
+      <h1 class="text-4xl font-bold text-gray-800 mb-4">
+        3- Para localização fora da faixa ou caso não tenha faixa configurada
+      </h1>
+      <ul class="list-disc pl-4 text-gray-700 list-inside space-y-2">
+        <li>
+          <strong>Valor Fixo:</strong> A taxa de entrega será fixa para clientes
+          fora da faixa de km ou caso a faixa não esteja configurada.
+        </li>
+        <li>
+          <strong>Valor por km:</strong> A taxa de entrega será calculada com
+          base na distância em quilômetros entre o endereço do cliente e o
+          endereço do seu negócio.
+        </li>
+        <li><strong>Nenhum:</strong> Nenhuma taxa de entrega será aplicada.</li>
+      </ul>
+    </article>
+
+    <figure class="w-full max-w-7xl">
+      <img
+        src="configtaxa-img4.png"
+        alt="Print configtaxa-img4"
+        class="w-full h-auto rounded-lg shadow-lg"
+      />
+    </figure>
+  </section>
+
+  <!-- SECTION 5-->
+  <section class="flex flex-col items-center space-y-8 px-4 py-8">
+    <article class="text-center">
+      <h1 class="text-4xl font-bold text-gray-800 mb-4">
+        4- Para localização fora da faixa ou caso não tenha faixa configurada
+      </h1>
+      <p class="text-lg text-gray-700">
+        Exemplo: Se a opção 'Valor por km' for selecionada e o valor preenchido
+        no campo 'Informe o valor' for 2 reais, isso significa que clientes com
+        a localização fora da faixa de km definida pagarão 2 reais para cada
+        quilômetro de distância do seu negócio.
+      </p>
+    </article>
+
+    <figure class="w-full max-w-7xl">
+      <img
+        src="configtaxa-img5.png"
+        alt="Print configtaxa-img5"
+        class="w-full h-auto rounded-lg shadow-lg"
+      />
+    </figure>
+  </section>
+
+  <!-- SECTION 6 -->
+  <section class="flex flex-col items-center space-y-8 px-4 py-8">
+    <article class="text-center">
+      <h1 class="text-4xl font-bold text-gray-800 mb-4">
+        5- Informe faixas de KM e seu preço cobrado (Opcional)
+      </h1>
+      <p class="text-lg text-gray-700 mb-4">
+        As faixas de km são intervalos de distância a partir do seu negócio,
+        onde você pode definir preços diferentes para a entrega, dependendo da
+        distância. Por exemplo, um cliente localizado entre 6 e 20 km do seu
+        negócio pode pagar uma taxa de entrega de R$6,99.
+      </p>
+      <p class="text-lg text-gray-700 mb-4">
+        Cada faixa de km é composta por três informações:
+      </p>
+      <ul class="list-disc pl-5 text-gray-700 list-inside space-y-2">
+        <li><strong>Do km:</strong> A distância inicial da faixa.</li>
+        <li><strong>Até o km:</strong> A distância final da faixa.</li>
+        <li>
+          <strong>Cobrar:</strong> O valor total a ser cobrado para as
+          localizações dentro dessa faixa de km.
+        </li>
+      </ul>
+    </article>
+
+    <figure class="w-full max-w-7xl">
+      <img
+        src="configtaxa-img6.png"
+        alt="Print configtaxa-img6"
+        class="w-full h-auto rounded-lg shadow-lg"
+      />
+    </figure>
+  </section>
+
+  <!--Botões-->
+  <div class="flex justify-center mt-8 space-x-4">
+    <!-- Botão Simular Entrega -->
+    <button
+      (click)="nextSection()"
+      class="bg-red-500 text-white px-8 py-3 text-md rounded-full hover:bg-blue-500 transition-all flex items-center justify-center"
+    >
+      <span>1/4 Configuração da Área de Entrega</span>
+
+      <img src="icon-go.png" alt="Ícone Go" class="h-5 w-5 ml-2" />
+    </button>
+  </div>
+</main>
+<br />
+<app-footer></app-footer>

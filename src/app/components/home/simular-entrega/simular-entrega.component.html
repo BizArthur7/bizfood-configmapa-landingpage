@@ -1,0 +1,103 @@
+<app-header></app-header>
+<main class="space-y-16 px-4 py-8">
+  <!-- SECTION 1-->
+  <section class="flex flex-col items-center space-y-8 px-4 py-8">
+    <article class="text-center">
+      <h1 class="text-4xl font-bold text-gray-800 mb-4">1- Simular entregas</h1>
+      <p class="text-lg text-gray-700">
+        O botão "Calcular" permite simular entregas como se você fosse um
+        cliente, facilitando a análise de taxas e distâncias. Isso auxilia na
+        tomada de decisões, permitindo visualizar o valor da taxa e a distância
+        entre o endereço do seu negócio e o endereço simulado. Ao clicar no
+        botão, um popup será exibido para que você preencha o endereço de
+        simulação e realize a simulação da entrega.
+      </p>
+    </article>
+
+    <figure class="w-full max-w-7xl">
+      <img
+        src="simularentrega-img1.png"
+        alt="Print simularentrega-img1"
+        class="w-full h-auto rounded-lg shadow-lg"
+      />
+    </figure>
+  </section>
+
+  <!-- SECTION 2-->
+  <section class="flex flex-col items-center space-y-8 px-4 py-8">
+    <article class="text-center">
+      <h1 class="text-4xl font-bold text-gray-800 mb-4">
+        2- Preencher endereço para simulação
+      </h1>
+      <p class="text-lg text-gray-700">
+        Para facilitar a consulta, basta inserir o CEP e clicar no ícone da lupa
+        ao lado do campo. O endereço será preenchido automaticamente, e o foco
+        será direcionado para o campo de número, pronto para ser preenchido. E
+        em seguida, clique no botão "Calcular". Você será automaticamente
+        redirecionado para o mapa, onde poderá visualizar as informações
+        detalhadas sobre a simulação da entrega, incluindo o valor da taxa e a
+        distância até o endereço informado.
+      </p>
+    </article>
+
+    <figure class="w-full max-w-7xl">
+      <img
+        src="simularentrega-img2.png"
+        alt="Print simularentrega-img2"
+        class="w-full h-auto rounded-lg shadow-lg"
+      />
+    </figure>
+  </section>
+
+  <!-- Seção 2 (apenas repetição para demonstrar) -->
+  <section class="flex flex-col items-center space-y-8">
+    <article class="text-center">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">
+        3- Demonstração da simulação
+      </h2>
+      <p class="text-gray-700">
+        Neste vídeo, preencho um endereço de simulação. Em seguida, cliquei em
+        "Calcular" e fui redirecionado para o mapa, onde pude visualizar as
+        informações detalhadas da simulação.
+      </p>
+    </article>
+    <figure class="w-full max-w-7xl">
+      <video controls class="w-full h-auto rounded-lg shadow-lg">
+        <source src="simularentrega.mp4" type="video/mp4" />
+        Seu navegador não suporta a tag de vídeo.
+      </video>
+    </figure>
+    <figure class="w-full max-w-7xl">
+      <img
+        src="simularentrega-img3.png"
+        alt="Print simularentrega-img3"
+        class="w-full h-auto rounded-lg shadow-lg"
+      />
+    </figure>
+  </section>
+
+  <!--Botões-->
+  <div class="flex justify-center mt-8 space-x-4">
+    <!-- Botão Voltar -->
+    <button
+      (click)="previousSection()"
+      class="bg-gray-500 text-white px-8 py-3 text-md rounded-full hover:bg-blue-500 transition-all flex items-center justify-center"
+    >
+      <img src="icon-back.png" alt="Ícone Back" class="h-5 w-5 mr-2" />
+
+      <span>Voltar</span>
+    </button>
+
+    <!-- Botão Simular Entrega -->
+    <button
+      (click)="nextSection()"
+      class="bg-red-500 text-white px-8 py-3 text-md rounded-full hover:bg-blue-500 transition-all flex items-center justify-center"
+    >
+      <span>3/4 Acessando o Delivery</span>
+
+      <img src="icon-go.png" alt="Ícone Go" class="h-5 w-5 ml-2" />
+    </button>
+  </div>
+</main>
+<br />
+<app-footer></app-footer>

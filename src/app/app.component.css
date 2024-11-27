@@ -1,0 +1,61 @@
+.landing-page {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: black;
+  background-color: white;
+  padding: 20px;
+}
+
+.header {
+  background-color: #f8f9fa; /* Cinza claro */
+  padding: 20px;
+  border-bottom: 2px solid #007bff; /* Azul */
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.title {
+  color: #007bff; /* Azul */
+  margin: 10px 0;
+}
+
+.feature-intro {
+  margin: 20px 0;
+}
+
+.intro-text {
+  font-size: 18px;
+  color: #333333; /* Cinza escuro */
+}
+
+.feature-details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.screenshot {
+  margin: 10px;
+  text-align: center;
+}
+
+.screenshot img {
+  max-width: 300px;
+  border: 2px solid #ffc107; /* Amarelo */
+  border-radius: 8px;
+}
+
+.screenshot-caption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555555; /* Cinza médio */
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: #000000; /* Preto */
+  color: white;
+}
