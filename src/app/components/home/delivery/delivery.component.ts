@@ -20,4 +20,8 @@ export class DeliveryComponent implements OnInit {
   public previousSection(): void {
     this.router.navigate(['/home-simular-entrega']);
   }
+
+  public nextSection(): void {
+    this.router.navigate(['/home-delivery-pedido']);
+  }
 }
